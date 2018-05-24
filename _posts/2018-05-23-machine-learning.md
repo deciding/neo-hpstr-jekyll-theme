@@ -22,7 +22,9 @@ Batch gradient descent & stochastic gradient descent, Coordinate gradient descen
 <a href=https://www.zhihu.com/question/58584814>duality</a>
 
 <a href=https://www.quora.com/Why-small-l1-norm-means-sparsity/answer/Prasoon-Goyal>l1 sparsity</a>
+
 <a href=https://www.cnblogs.com/pinard/p/5970503.html>GD</a>
+
 <a href=https://blog.csdn.net/lansatiankongxxc/article/details/46386341>subgradient</a>
 
 
