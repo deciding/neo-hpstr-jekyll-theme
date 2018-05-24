@@ -19,17 +19,14 @@ constrained inequality(KKT, u>=0, f'-sum(g')=0, sum(ug(x*))=0, it is just maxmin
 
 Batch gradient descent & stochastic gradient descent, Coordinate gradient descent
 
-https://www.zhihu.com/question/58584814 duality
-
-https://www.quora.com/Why-small-l1-norm-means-sparsity/answer/Prasoon-Goyal l1 sparsity
-
-https://www.cnblogs.com/pinard/p/5970503.html GD
-
-https://blog.csdn.net/lansatiankongxxc/article/details/46386341 subgradient
+link: https://www.zhihu.com/question/58584814 duality
+link: https://www.quora.com/Why-small-l1-norm-means-sparsity/answer/Prasoon-Goyal l1 sparsity
+link: https://www.cnblogs.com/pinard/p/5970503.html GD
+link: https://blog.csdn.net/lansatiankongxxc/article/details/46386341 subgradient
 
 
 ###Day3
 
 logistic regression: not regression, use (0,1) sigmoid to model classification as Linear regression, but since loss function is not convex, we don't use GD directly. instead of get min of non-convex loss function, we use MLE(min likelihood estimate) to get max of all sample possiblity(likelihood function). we use Gradient Ascdent at this point.
 
-https://blog.csdn.net/w401229755/article/details/51712581 logistic regression
+link: https://blog.csdn.net/w401229755/article/details/51712581 logistic regression
