@@ -28,6 +28,8 @@ Convex optimization(Fermat theory, derivative is 0), Lagrangian multiplier, **Pr
 
 3. constrained inequality(KKT, u>=0, aL/ax=0, sum(ug(x*))=0, it is just maxmin)
 
+about duality
+
 1. use logic to approach maxmin
 
 2. use geometry to approach KKT then approach maxmin
