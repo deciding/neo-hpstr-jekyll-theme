@@ -6,6 +6,12 @@
 
 optimize: 1. bisecting k means: all are one cluster at first; use k=2 means to break each one and calculate the overall min SSE, and choose to break that cluster; iterate to make k=k(expected) 2. mini batch k means: only use some samples to get the optimized centroid
 
+fallback:
+
+1. you need to know ahead what is k
+
+2. the clustering is highly depending on the inital centroid(there are bad centroids)
+
 **expectation maximization algorithm**: 
 
 1. MLE(maximum likelihood estimate): (model with unknown params, samples) -> (model params)
