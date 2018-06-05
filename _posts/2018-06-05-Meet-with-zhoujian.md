@@ -1,0 +1,23 @@
+- what have you prepared?
+
+-- I am preparing the machine learning basics, linear algebra, tensoroverflow, gpu programming and systems.
+
+- no, you should not go deep at this point of time, instead, you should go wider to the machine learning topics. you know there is a book by bengio(deep learning). at this time you should read some more topics inside machine learning, so that in the future when you encounter a problem, you can immdediately recall that you have read it somewhere before, so that you can reference some related materials. what's more you should read more about the history of the development of the technology, you should read when it is developed and why people chose that way something like that
+
+in the phd learning phase you will learn these machine learning staffs for sure. you know that although these technology like tensorflow are very hot now, but we do not know whether they will keep hot in the future. it is just like a clock, some years it wave to here, after a few years it is just wave back, we'd never know. just like a few years earlier, if you learn COBOL or Fortran, the Fundamentals of Compiling, I would say it is useless. but now it may be useful again. in the past times when I was young, I have spent a lot of time learning j2ee, like websphere and weblogic, you may have never heard of them. at that time I learnt from the Hello world and build the projects, now I just think why I spent so much time on these useless stuffs, since they are already deprecated now, and I have read though the whole w3c specifications, which are quite a lot, and now I just think they may be useful for my reading ability to the english docs. thus you need an overall view of the technologies so that you can know which is important and which not. you need to go into the enterprise then you can understand which technologoy is needed and truely important to learn, instead of like me start from the hello world program. now I will draw you a graph which I really like and draw a lot:
+
+**data**, **info**, **knowledge**,**insight**,**wisdom**
+
+ok data is the thing where you learn some sparse technology like java and C++, and info means you have emphasized some technology than others. but they are not so useful, and after some time, you may forget all these things. then during the learning and using you have established some connections between them for example, java and C++, or SQL and NoSQL, SQL and graphdb. this can make you remember them for a long time. then is insight, in this phase you get some opputunities to really work in the specific areas, then you can get some insight of this technology, and get a whole skill. in your target(life target or phd target) you may want to achieve some skills you want to have, for the target you can draw a skill graph for yourself, and some of them you are familiar or not, some of them you are more interested or not. you need to an overview of this graph. then for each oppurunitied you get from yitu for example, you just pick the ones you are more interested and most useful to you, maybe you can the perfectly fitted ones for you, but during doing the jobs you can get the insight of the skills. for the widom graph it is just something like siweidaotu. and for SysML, you can draw it like System, ML and Hardware, but they are just a part of it. interest is also very important, doing the interesting things can make you more productive. 
+
+in your phd phases, you should create knowledges, and some times when you encounter the problem, you need to figure out the way by yourself, we can only provide you the direction that may work by our experience, but it may work or may not, sometimes you may just argue that this way will not work, and sorry that we have no time convince you, and you may persist since what if we are wrong? but need the spirit of "shan qiong shui jin yi wu lu..." phrases. 
+
+a lot of phd students will become coders at last. this is really a waste, why not they just read masters instead? for these kind of phd we give them the project that we actually have some idea in mind, and just let them to implement, and when things not going expected and they encounter with some problems, we will give them hints, since we already get the answers in mind. but for phd, it is different, we also have no idea how to implement or we even don't know whether it will work or not. why do we need phd? we need them to do this kind of job and work out the problems on their own.
+
+--will I do this kind of jobs like phd?
+
+-not sure(I forgot his answers)
+
+--so wider better than deeper?
+
+-no, we should enhance them concurrently
