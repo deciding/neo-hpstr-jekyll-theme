@@ -16,7 +16,9 @@ min xTAx, s.t. xTx=1
 
 ## tongji
 
-### number of inverse, parity of inverse number, definition of det(det of diagnol, right diagnol, triangle)
+### determinant 
+
+number of inverse, parity of inverse number, definition of det(det of diagnol, right diagnol, triangle)
 
 swap theorem, parity corollary, det col theorem, attributes of det (transpose, swap, zero, scalar, scalar zero, col add, add k of another) (4 blocks with 0, cross)
 
