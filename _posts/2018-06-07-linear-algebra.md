@@ -15,3 +15,21 @@ min xTAx, s.t. xTx=1
 **matrix calculus**: Gradient, Hessian, quadratic and linear gradient, LMS, det grad, constrained quadratic form
 
 ### tongji
+
+## determinant
+
+number of inverse, parity of inverse number, definition of det(det of diagnol, right diagnol, triangle)
+
+swap theorem, parity corollary, det col theorem, attributes of det (transpose, swap, zero, scalar, scalar zero, col add, add k of another) (4 blocks with 0, cross)
+
+all other 0 det lemma, minor det theorem, mismatch minor 0 det corollary (Vandermonte det)
+
+Cramer's rule: D!=0 unique Di/D, D!=0 unique theorem, D!=0 <=> homo non-zero theorem
+
+## matrix
+
+matrix definition
+
+matrix ops: A+B, kA, AB(exchangable, formulas, scalar mat), AT(sym mat, (AB)T=BTAT), detA(|AB|=|A||B|, AA*=|A|E, adjoing mat), conjugate(conjugate mat)
+
+inverse: def(AB=BA=E, unique A^-1), |A|!=0 <=> A invertible A*/|A| theorem, AB=E => B=A^-1 corollary, attributes(A^-1, kA, AB, AT)
