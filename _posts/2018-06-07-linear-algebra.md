@@ -2,5 +2,6 @@
 
 **matrix multiplication**
 
-| **diag+symm** | **inverse** | **rank** |
+| diag+symm | inverse | rank |
+|:----------|:--------|:-----|
 | tr,norm       | det         | rank     |
