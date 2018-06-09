@@ -40,7 +40,7 @@ matrix partition: A+B,kA,AB,AT,invA, ATA=0 <=> A=0, Cramer's rule(augmented mat)
 
 **ref(elem trans) -> mat mul**
 
-elementary transformation and elementary matrix: def of equivalence(3 trans, ref rref standard), def of elem mat(map to trans, invertible, invertible <=> A=P1P2..Pn), A~B <=> B=PAQ theorem, A~E <=> A invertible corollary
+elementary transformation and elementary matrix: def of equivalence(3 trans, ref rref standard), def of elem mat(map to trans, invertible, invertible <=> A=P1P2..Pn), A ~ B <=> B=PAQ theorem, A ~ E <=> A invertible corollary
 
 **ref(elem trans) -> mat attr**
 
