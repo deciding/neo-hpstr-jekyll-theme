@@ -44,13 +44,13 @@ elementary transformation and elementary matrix: def of equivalence(3 trans, ref
 
 **ref(elem trans) -> mat attr**
 
-rank: how to make non-zero rows of ref as an attribute of mat? minor with order k, non-zero minor with highest order, full rank <=> invertible, rank of ref is No. of non-zero rows, A~B <=> R(A)=R(B) theorem, B=PAQ <=> R(A)=R(B) corollary. 
+rank: how to make non-zero rows of ref as an attribute of mat? minor with order k, non-zero minor with highest order, full rank <=> invertible, rank of ref is No. of non-zero rows, A~B => R(A)=R(B) theorem, B=PAQ => R(A)=R(B) corollary. 
 
-rank attr: R(A)<=min(m,n), R(A)=R(AT), A~B <=> R(A)=R(B) theorem, B=PAQ <=> R(A)=R(B) corollary, max(R(A),R(B))<=R(A,B)<=R(A)+R(B) use col trans, R(A+B)<=R(A)+R(B) (R(A+B,B)~R(A,B)), R(AB)<min(R(A),R(B)), mnp AB=0 => R(A)+R(B)<=n, mnp AB=C, R(A)=n => R(B)=R(C) (A=(E,0)T)
+rank attr: R(A)<=min(m,n), R(A)=R(AT), A~B => R(A)=R(B) theorem, B=PAQ => R(A)=R(B) corollary, max(R(A),R(B))<=R(A,B)<=R(A)+R(B) use col trans, R(A+B)<=R(A)+R(B) (R(A+B,B)~R(A,B)), R(AB)<min(R(A),R(B)), mnp AB=0 => R(A)+R(B)<=n, mnp AB=C, R(A)=n => R(B)=R(C) (A=(E,0)T)
 
 **solution of linear system(get R(AB) attr)**
 
-0 solution <=> R(A)!=R(A,b), 1 solution <=> R(A)[=R(A,b)]=n, many solutions <=> R(A)=R(A,b)<n theorem (prove using (E,B,d))
+0 solution <=> R(A)!=R(A,b), 1 solution <=> R(A)[=R(A,b)]=n, many solutions <=> R(A)=R(A,b)<n theorem (prove using (E,B,d), and just prove sufficiency)
 
 homo sys non-zero solution <=> R(A)<n theorem
 
