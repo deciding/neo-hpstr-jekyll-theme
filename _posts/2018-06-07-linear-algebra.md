@@ -48,7 +48,7 @@ rank: how to make non-zero rows of ref as an attribute of mat? minor with order 
 
 rank attr: R(A)<=min(m,n), R(A)=R(AT), A~B <=> R(A)=R(B) theorem, B=PAQ <=> R(A)=R(B) corollary, max(R(A),R(B))<=R(A,B)<=R(A)+R(B) use col trans, R(A+B)<=R(A)+R(B) (R(A+B,B)~R(A,B)), R(AB)<min(R(A),R(B)), mnp AB=0 => R(A)+R(B)<=n, mnp AB=C, R(A)=n => R(B)=R(C) (A=(E,0)T)
 
-**solution of linear system**
+**solution of linear system(get R(AB) attr)**
 
 0 solution <=> R(A)!=R(A,b), 1 solution <=> R(A)[=R(A,b)]=n, many solutions <=> R(A)=R(A,b)<n theorem (prove using (E,B,d))
 
