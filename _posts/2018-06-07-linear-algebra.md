@@ -50,6 +50,8 @@ rank attr: R(A)<=min(m,n), R(A)=R(AT), A~B => R(A)=R(B) theorem, B=PAQ => R(A)=R
 
 **solution of linear system(get R(AB) attr)**
 
+n is column number of A
+
 0 solution <=> R(A)!=R(A,b), 1 solution <=> R(A)[=R(A,b)]=n, many solutions <=> R(A)=R(A,b)<n theorem (prove using (E,B,d), and just prove sufficiency)
 
 homo sys non-zero solution <=> R(A)<n theorem
@@ -59,3 +61,27 @@ have solution <=> R(A)=R(A,b) thoerem
 have mat solution <=> R(A)=R(A,B) theorem
 
 R(AB)<=min(R(A),R(B)) attr (R(A)=R(A,AB) from above, and R(AB)<=R(A,AB)=R(A))
+
+### vector set and its linear dependency
+
+**linear combination and linear representable**
+
+b linear representable by A <=> R(A)=R(A,b), B linear representable by A <=> R(A)=R(A,B),  B linear representable by A => R(A)>=R(B) theorems
+
+vector set are equivalent if mutal linear representable. (invertible matrix transformation)
+
+**linear independent**
+
+linear independent <=> exist linear combination, linear independent <=> R(A)=n theorem, (1)n linear dependent => n+1 also linear dependent, (2) amount > n => linear dependent (3) n linear independet and n+1 linear dependent => a_n+1 has unique linear combination from others theorems (all deducted from prev theorem). 
+
+**rank of vector set**
+
+def largest independent set, mat rank<=> row/col vector set rank theorem, def2 largest independent set(equivalent) corollary (R(A)<=R(B) and independent R(A) theorem), finite vector set linear combination theorem to infinite vector set
+
+**solution vector set(nullspace)**
+
+add/mul for homo, sub/addhomo for non-homo. homo solution vector set(largest independent set) Rs=n-R(A) (prove by (B, En-r)T), mnq AB=0 => R(A)+R(B)<=n, Ax=0 Bx=0 same solution => R(A)=R(B), R(ATA)=R(A)
+
+**vector space**
+
+linear attr, homo solution space, generated vector space, basis, coordinates, basis transfer XA^-1B, coordinate transform B^-1AX
