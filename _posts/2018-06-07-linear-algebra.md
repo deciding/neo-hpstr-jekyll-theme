@@ -101,3 +101,15 @@ quadratic form: function need to be presented in standard form, canonical form, 
 complete the square method: quadratic form to non-unique standard form is not unique
 
 positive definite quadratic form: positive definite def, not only same rank but also same number of pos term for different quadratic form(inertia theorem not proved) (positive inertia index), positive definite <=> n positive inerita index theorem,  positive definite <=> n positive eigen value corollary, Hurwitz theorem(main minor)(not proved)
+
+### linear space and linear transformation
+
+linear space Vn: def(closed + linear operations rules), properties (0,neg <=> product 0 or neg)
+
+dimension, basis, and coordinates: def(linear independent + represent all), isomorphism(1 to 1 to Rn, hold linear correspondence on add and scala)
+
+basis/coordinates transformation: B=AP(P=A^-1B), B xb=A xa(xb=P^-1 xa) theorem
+
+linear transformation: def(mapping, 2 condition), properties(0 neg, linear combination, linear dependent, image space(T(Vn)), kernel(St))
+
+linear transformation and matrix: lineat trans <=> mat(on some basis), lineat trans one to one mat(on some basis), def( T(a1,...an), T[(a1,...an)x]=(a1...an)Ax), linear trans and basis(B=P^-1AP, P is A basis =>B basis), rank of linear trans is rank of T(Vn) is rank of A
