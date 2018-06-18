@@ -20,7 +20,7 @@ min xTAx, s.t. xTx=1
 
 number of inverse, parity of inverse number, definition of det(det of diagnol, right diagnol, triangle)
 
-swap theorem, parity corollary, det col theorem, attributes of det (transpose, swap, zero, scalar, scalar zero, col add, add k of another) (4 blocks with 0, cross)
+swap theorem, parity corollary, det col theorem, attributes of det (transpose, swap, zero, scalar, scalar zero, col add, add k of another) (4 blocks with 0: ka+b always able transfer to triangle proved by math induct, cross)
 
 all other 0 det lemma, minor det theorem, mismatch minor 0 det corollary (Vandermonte det)
 
