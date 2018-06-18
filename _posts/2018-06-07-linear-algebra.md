@@ -38,11 +38,11 @@ matrix partition: A+B,kA,AB,AT,invA, ATA=0 <=> A=0, Cramer's rule(augmented mat)
 
 ### rank(elementary transformation and solution of linear system)
 
-**ref(elem trans) -> mat mul**
+**REF(elem trans) -> mat mul**
 
 elementary transformation and elementary matrix: def of equivalence(3 trans, ref rref standard), def of elem mat(map to trans, invertible, invertible <=> A=P1P2..Pn), A ~ B <=> B=PAQ theorem, A ~ E <=> A invertible corollary
 
-**ref(elem trans) -> mat attr**
+**REF(elem trans) -> mat attr(rank)**
 
 rank: how to make non-zero rows of ref as an attribute of mat? minor with order k, non-zero minor with highest order, full rank <=> invertible, rank of ref is No. of non-zero rows, A~B => R(A)=R(B) theorem, B=PAQ => R(A)=R(B) corollary. 
 
