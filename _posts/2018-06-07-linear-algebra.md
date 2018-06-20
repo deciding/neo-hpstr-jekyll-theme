@@ -32,7 +32,7 @@ matrix definition
 
 matrix ops: A+B, kA, AB(exchangable, formulas, scalar mat), AT(sym mat, (AB)T=BTAT), detA(|AB|=|A||B|, AA*=|A|E, adjoint mat), conjugate(conjugate mat)
 
-inverse: def(AB=BA=E, unique A^-1), |A|!=0 <=> A invertible A*/|A| theorem, AB=E => B=A^-1 corollary, attributes(A^-1, kA, AB, AT), A^-k, diagnolizable f(A)g(A)=g(A)f(A), f(A)=Pf(K)P^-1=Pdiagnol(f(ki))P^-1
+inverse: def(AB=BA=E, unique A^-1), **|A|!=0 <=> A invertible A*/|A| theorem**, AB=E => B=A^-1 corollary, attributes(A^-1, kA, AB, AT), A^-k, diagnolizable f(A)g(A)=g(A)f(A), f(A)=Pf(K)P^-1=Pdiagnol(f(ki))P^-1
 
 matrix partition: A+B,kA,AB,AT,invA, ATA=0 <=> A=0, Cramer's rule(augmented mat)
 
@@ -44,9 +44,9 @@ elementary transformation and elementary matrix: def of equivalence(3 trans, ref
 
 **REF(elem trans) -> mat attr(rank,minor)**
 
-rank: how to make non-zero rows of ref as an attribute of mat? minor with order k, non-zero minor with highest order, full rank <=> invertible, rank of ref is No. of non-zero rows, A~B => R(A)=R(B) theorem(simplify, 1 2 row, elem mat, R(A)>=R(B)), B=PAQ => R(A)=R(B) corollary. 
+rank: how to make non-zero rows of ref as an attribute of mat? minor with order k, non-zero minor with highest order, full rank <=> invertible, rank of ref is No. of non-zero rows, A~B => R(A)=R(B) theorem(simplify, 1 2 row, elem mat, R(A)>=R(B)), **B=PAQ => R(A)=R(B) corollary**. 
 
-rank attr: R(A)<=min(m,n), R(A)=R(AT), A~B => R(A)=R(B) theorem, B=PAQ => R(A)=R(B) corollary, max(R(A),R(B))<=R(A,B)<=R(A)+R(B) use col trans, R(A+B)<=R(A)+R(B) (R(A+B,B)~R(A,B)), R(AB)<min(R(A),R(B)), mnp AB=0 => R(A)+R(B)<=n, mnp AB=C R(A)=n => R(B)=R(C) (A=(E,0)T)
+rank attr: R(A)<=min(m,n), R(A)=R(AT), A~B => R(A)=R(B) theorem, B=PAQ => R(A)=R(B) corollary, max(R(A),R(B))<=R(A,B)<=R(A)+R(B) use col trans, R(A+B)<=R(A)+R(B) (R(A+B,B)~R(A,B)), R(AB)<min(R(A),R(B)), mnp AB=0 => R(A)+R(B)<=n(nullspace), mnp AB=C R(A)=n => R(B)=R(C) (A=(E,0)T)
 
 **solution of linear system(get R(AB) attr)**
 
