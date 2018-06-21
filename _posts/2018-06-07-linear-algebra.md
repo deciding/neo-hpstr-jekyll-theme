@@ -100,6 +100,7 @@ linear independence -> def of vector set rank -> same as mat rank + max indep se
 
 RREF -> fundamental solution(homo/nonhomo) -> Rs=n-R(A) -> 3 props
 
+solution vector set -> solution space, rank -> dimension
 
 ### similar matrix and quadratic form
 
