@@ -110,13 +110,19 @@ eigen value, eigen vector, eigen equation, eigen polynomial, tr, |A|, k^2, 1/k, 
 
 similar matrix: A=PBP^-1 => same eigen polynomial => same eigen values theorem, A=PVP^-1 => eigen values of A are V diagnols corollary, diagnolizable <=> n linear independent eigen vectors theorem, n diff eigen values => diagbolizable corollary
 
-symmetric matrix: real eigen values thus real eigen vectors theorem, diff k => orthognol theorem, always diagnolizable to orthonomal mat theorem(not proved), k has same m roots => R(A-kE)=n-m => m independent eigen vectors corollary
+symmetric matrix: real eigen values thus real eigen vectors theorem, diff k => orthognol theorem, always diagnolizable to orthonomal mat theorem(not proved), k has same m roots => R(kE-A)=n-m => m independent eigen vectors corollary
 
 quadratic form: function need to be presented in standard form, canonical form, 1. quadratic form one to one map to symmetric matrix, rank of quadratic form, 2. congruent CTAC (C invertible) (also symmetric and same rank), quadratic form always can convert to standard form theorem, quadratic from alway can convert to canonical form corollary
 
 complete the square method: quadratic form to non-unique standard form is not unique
 
 positive definite quadratic form: positive definite def, not only same rank but also same number of pos term for different quadratic form(inertia theorem not proved) (positive inertia index), positive definite <=> n positive inerita index theorem,  positive definite <=> n positive eigen value corollary, Hurwitz theorem(main minor)(not proved)
+
+**conclusion**
+
+linear indep -> orthognol indep theorem -> orthognol mat col orthonormal -> symmetric mat diagnolizable
+
+linear indep -> diff eigen value linear indep eigen vector theorem(p1+p2 not eigen vector) -> similar mat -> diagnolizable(diag easy compute+same eigen value) must n linear indep eigen vector theorem -> symmetric mat(R(kE-A)=n-m) -> quadratic form always have standard form -> positive definite means n positive inertia index
 
 ### linear space and linear transformation
 
