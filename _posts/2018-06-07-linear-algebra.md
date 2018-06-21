@@ -62,6 +62,10 @@ have mat solution <=> R(A)=R(A,B) theorem
 
 R(AB)<=min(R(A),R(B)) attr (R(A)=R(A,AB) from above, and R(AB)<=R(A,AB)=R(A))
 
+**conclusion**
+
+invertible multiply <=> equivalence(REF) => Rank, RREF <=> linear solution <=> linear independence(representable)
+
 ### vector set and its linear dependency
 
 **linear combination and linear representable**
@@ -84,7 +88,18 @@ add/mul for homo, sub/addhomo for non-homo. homo solution vector set(largest ind
 
 **vector space**
 
-linear attr, homo solution space, generated vector space, basis, coordinates, basis transfer XA^-1B, coordinate transform B^-1AX
+linear attr(closed), homo solution space, generated vector space, basis, coordinates, basis transfer XA^-1B, coordinate transform B^-1AX
+
+**conclusion**
+
+linear independence => Rank, linear representable => Rank(2 theorem), n+1 always linear dependent, r dep=>r+1 dep, r indep r+1 dep=> linear unique representable
+
+expand above as below:
+
+linear independence -> def of vector set rank -> same as mat rank + max indep set representable -> linear representable <=> vector set rank
+
+RREF -> fundamental solution(homo/nonhomo) -> Rs=n-R(A) -> 3 props
+
 
 ### similar matrix and quadratic form
 
